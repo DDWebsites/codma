@@ -41,7 +41,7 @@ export default function Footer() {
   return (
     <footer className="bg-muted/30 border-t border-border py-12">
       <div className="container">
-        <div className="flex flex-cols justify-between md:flex-row gap-8 lg:gap-20">
+        <div className="flex flex-col justify-between md:flex-row gap-8 lg:gap-20">
           {/* First Section - Logo, Description & Social Media */}
           <div className="space-y-4">
             {/* Logo */}
